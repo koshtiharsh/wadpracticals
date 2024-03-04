@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile: Theme Download</title>
+    <link rel="stylesheet" href="themes/A.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"
+    />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <style>
+    #content {
+      background: url("back.jpeg");
+
+      background-repeat: repeat-y;
+      background-position: center center;
+      background-attachment: scroll;
+      background-size: 100% 100%;
+
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #content p {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      text-align: justify;
+      width: 80%;
+    }
+
+    #content3 {
+      background: url("about.webp");
+
+      background-repeat: repeat-y;
+      background-position: center center;
+      background-attachment: scroll;
+      background-size: 100% 100%;
+
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    #content3 p {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-align: justify;
+      width: 40%;
+    }
+  </style>
+  <body>
+    <div data-role="page" data-theme="a" id="home">
+      <div data-role="navbar">
+        <ul>
+          <li><a data-icon="grid" href="#home">Home</a></li>
+          <li><a data-icon="gear" href="#services">Services</a></li>
+          <li><a data-icon="star" href="#about">About Us</a></li>
+        </ul>
+      </div>
+
+      <div data-role="header">
+        <h1>Home Page</h1>
+      </div>
+      <!-- /header -->
+
+      <div data-role="content" id="content">
+        <p>
+          Lorem Lorem ipsum dolor sit. ipsum dolor sit amet consectetur
+          adipisicing.
+        </p>
+        <a href="#services" data-role="button" data-icon="gear" data-theme="b"
+          >Our Services</a
+        >
+      </div>
+
+      <div data-role="footer">
+        <h3>Footer</h3>
+      </div>
+    </div>
+
+    <div data-role="page" data-theme="a" id="services">
+      <div data-role="navbar">
+        <ul>
+          <li><a data-icon="grid" href="#home">Home</a></li>
+          <li><a data-icon="gear" href="#services">Services</a></li>
+          <li><a data-icon="star" href="#about">About Us</a></li>
+        </ul>
+      </div>
+
+      <div data-role="header">
+        <h1>Our Services</h1>
+      </div>
+
+      <div role="main" class="ui-content" id="content2">
+        <div data-role="collapsible">
+          <h3>Service 1</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+            ipsum ullam iusto quidem amet enim minima non facere asperiores ex,
+            tenetur blanditiis rem, eum in odio sequi id incidunt necessitatibus
+            sed pariatur veniam? Quos dolore distinctio adipisci ducimus. Quod
+            hic ut dignissimos cupiditate unde ab, earum suscipit culpa aperiam
+            ratione?
+          </p>
+        </div>
+
+        <div data-role="collapsible">
+          <h3>Service 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+            quam dolorem quasi dolores esse odio veniam magni eius omnis! Magni
+            optio, facilis officia, doloribus necessitatibus dolorem velit
+            voluptatibus vero voluptate quos corporis omnis quaerat tempora
+            perspiciatis, iusto nobis sed placeat? Alias maiores error beatae
+            obcaecati harum, laudantium asperiores est id!
+          </p>
+        </div>
+
+        <div data-role="collapsible">
+          <h3>Service 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab optio
+            sequi laboriosam repudiandae. Nulla fuga magnam, rerum beatae
+            reprehenderit ipsum eveniet, reiciendis natus voluptatum dolorum
+            sint deserunt libero omnis velit commodi numquam, blanditiis
+            pariatur quisquam quos nisi doloremque atque! Nihil nostrum ad iure
+            ipsum eum.
+          </p>
+        </div>
+      </div>
+
+      <div data-role="footer">
+        <h4>Footer content</h4>
+      </div>
+    </div>
+
+    <div data-role="page" data-theme="a" id="about">
+      <div data-role="navbar">
+        <ul>
+          <li><a data-icon="grid" href="#home">Home</a></li>
+          <li><a data-icon="gear" href="#services">Services</a></li>
+          <li><a data-icon="star" href="#about">About Us</a></li>
+        </ul>
+      </div>
+
+      <div data-role="header">
+        <h1>About us</h1>
+      </div>
+      <!-- /header -->
+
+      <div data-role="content" id="content3">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+          ut quasi nemo porro necessitatibus ullam eaque temporibus quia
+          accusantium nostrum, illo cupiditate consequuntur aliquam fuga commodi
+          quas, tenetur cumque obcaecati dolor voluptas eius nulla dolorem
+          voluptate dicta! Voluptatem, cupiditate consequatur. Doloremque est
+          quas ipsum hic pariatur recusandae quae magnam atque?
+        </p>
+      </div>
+
+      <div data-role="footer">
+        <h3>Footer</h3>
+      </div>
+    </div>
+  </body>
+</html>
