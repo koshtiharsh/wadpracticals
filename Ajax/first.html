@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+    </script>
+    <script>
+            $(document).ready(function(){
+            $("#btn-2").click(function (){
+                const obj={name:$("#name").val(),email:$("#email").val(),number:$("#number").val()};
+                const myjson=JSON.stringify(obj);
+                localStorage.setItem("name",myjson);
+                $("#div1").load("http://127.0.0.1:5500/sec.html");
+            })
+        })
+
+        
+    </script>
+</head>
+<body>
+    
+    
+
+    <h2>Student Details</h2>
+
+    <div id="div1">
+      <label for="fname">Name of the Student:</label><br>
+      <input type="text" id="name" name="name" ><br><br>
+      <label for="lname">Email:</label><br>
+      <input type="email" id="email" name="email" ><br><br>
+      <label for="contact">Mobile Number</label><br>
+      <input type="number" id="number" name="number"><br>
+      
+      <button id="btn-2"  >Submit</button>
+
+    </div>
+</body>
+</html>

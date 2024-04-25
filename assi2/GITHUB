@@ -1,0 +1,163 @@
+https://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@github.com/koshtiharsh/testt.git
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt
+$ git clone https://github.com/koshtiharsh/testt.git \*\*\*
+Cloning into 'testt'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt
+$ cd testt \*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git status \*\*\*
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git status \*\*\*
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+(use "git add <file>..." to update what will be committed)
+(use "git restore <file>..." to discard changes in working directory)
+modified: kbt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git add \* \*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git status \*\*\*
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+(use "git restore --staged <file>..." to unstage)
+modified: kbt
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git commit -m "added kbt" \*\*\*
+[main 018e65a] added kbt
+1 file changed, 1 insertion(+)
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git config user.name "koshtiharsh" \*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git commit -m "added kbt"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+(use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git status \*\*\*
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+(use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git push https://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@github.com/koshtiharsh/testt.git \*\*\*
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 292 bytes | 292.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/koshtiharsh/testt.git
+8dcab44..018e65a main -> main
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (main)
+$ git pull https://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@github.com/koshtiharsh/testt.git \*\*\*
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 687 bytes | 6.00 KiB/s, done.
+From https://github.com/koshtiharsh/testt
+
+- branch HEAD -> FETCH_HEAD
+  Updating 018e65a..092ec04
+  Fast-forward
+  kbt | 3 ++-
+  1 file changed, 2 insertions(+), 1 deletion(-)
+
+NEW BRANCH AND MERGE IT INTO REPOSITORY
+
+$ git checkout -b ＜ new-branch ＞ \*\*\*
+Switched to a new branch '＜ new-branch ＞'
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (＜ new-branch ＞)
+$ git branch \*\*\*\*
+main
+
+- ＜ new-branch ＞
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (＜ new-branch ＞)
+$ mkdir harsh \*\*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt (＜ new-branch ＞)
+$ cd harsh \*\*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ touch prati.txt \*\*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git add . **\***
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git commit -m "create folder for new branch" \*\*\*\*
+[＜ new-branch ＞ 02f9287] create folder for new branch
+1 file changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 harsh/prati.tx
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git push https://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@github.com/koshtiharsh/testt.git \*\*\*\*
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 369 bytes | 369.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for '＜ new-branch ＞' on GitHub by visiting:
+remote: https://github.com/koshtiharsh/testt/pull/new/%EF%BC%9Cnew-branch%EF%BC%9E
+remote:
+To https://github.com/koshtiharsh/testt.git
+
+- [new branch] ＜ new-branch ＞ -> ＜ new-branch ＞
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git status \*\*\*\*
+On branch ＜ new-branch ＞  
+nothing to commit, working tree clean
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git commit -m "added branch" \*\*\*\*
+On branch ＜ new-branch ＞
+nothing to commit, working tree clean
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git config user.name "koshtiharsh" \*\*\*\*
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)
+$ git push https://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@github.com/koshtiharsh/testt.git \*\*\*  
+Everything up-to-date
+
+Dell@DESKTOP-OJ0VFEL MINGW64 ~/Desktop/kbt/testt/harsh (＜ new-branch ＞)  
+$ git pull https://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@github.com/koshtiharsh/testt.git \*\*\*\*
+From https://github.com/koshtiharsh/testt
+
+- branch HEAD -> FETCH_HEAD
+  Already up to date.
