@@ -1,0 +1,73 @@
+.posts{
+   
+    padding: 1.5rem;
+    background-color: white;
+
+    border-radius: 15px;
+    
+}
+.posts1{
+    padding: 1rem;
+}
+
+.posts .first  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 20px;
+
+
+}
+
+.posts .first input{
+    border: none;
+    background-color: rgb(230, 230, 230);
+    width: 80%;
+    height: 60px;
+    border-radius: 100px;
+    padding-left: 2rem;
+
+}
+.posts input:focus{
+    outline: none;
+}
+.posts .first img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.posts .attach{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.posts .attach button{
+    border: none;
+    background-color: rgb(44, 195, 255);
+    width: 100px;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.attach label i { 
+    font-size: 18px;
+    color: rgb(101,101,101);
+    margin-right:0.5rem;
+
+}
+.attach label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.attach span{
+font-size: 14px;
+color: rgba(101, 101, 101, 0.628);
+}

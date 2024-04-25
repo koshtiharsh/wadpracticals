@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1: Form</title> <!-- 2 marks -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> <!-- 1 mark -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> <!-- 1 mark -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> <!-- 1 mark -->
+</head>
+<body>
+
+<div data-role="page" id="page1">
+    <div data-role="header">
+        <h1>Page 1: Form</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div data-role="footer">
+        <h4>Footer content</h4>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2: jQuery Mobile Code</title> <!-- 2 marks -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> <!-- 1 mark -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> <!-- 1 mark -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> <!-- 1 mark -->
+</head>
+<body>
+
+<div data-role="page" id="page2">
+    <div data-role="header">
+        <h1>Page 2: jQuery Mobile Code</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>Click the button to hide it:</p>
+        <button id="hideButton">Hide Button</button>
+    </div>
+
+    <div data-role="footer">
+        <h4>Footer content</h4>
+    </div>
+</div>
+
+<script>
+    $(document).on("pagecreate", "#page2", function () {
+        $("#hideButton").on("click", function () {
+            $(this).hide();
+        });
+    });
+</script>
+
+</body>
+</html>

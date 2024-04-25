@@ -1,0 +1,61 @@
+.login{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+    padding: 10rem 10rem;
+    background-color: rgb(245, 242, 242);
+    
+}
+
+
+
+.login .container {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    padding: 2rem 4rem;
+    height: auto;
+    border-radius: 20px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: white;
+   
+    height: auto;
+
+}
+
+.login form input{
+    height: 50px;
+    width: 500px;
+    border: 1px solid rgb(203, 203, 203);
+    font-size: 15px;
+    border-radius:5px;
+    padding-left: 1rem;
+}
+input:focus{
+    outline: rgb(44, 195, 255) 2px solid;
+    border: none;
+}
+
+
+form button{
+    height: 50px;
+    border: none;
+    background-color: rgb(63, 172, 215);
+    color: white;
+    cursor: pointer;
+}
+
+.signup{
+    padding: 3rem 10rem;
+}
+
+.signup form {
+gap: 30px;
+}

@@ -1,0 +1,46 @@
+.navbar{
+    padding: 1rem 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+
+.navbar h3{
+    font-size:25px;
+    margin: 0;
+    color: rgb(44, 195, 255);
+}
+
+.navbar .rightside {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.navbar .rightside i{
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.navbar .rightside .username{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .rightside .username i{
+    color: rgb(44, 195, 255);
+}
+.navbar .rightside .logout{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .rightside .logout i{
+    color: rgb(255 63 128);
+}
+
+a{
+    text-decoration: none;
+}

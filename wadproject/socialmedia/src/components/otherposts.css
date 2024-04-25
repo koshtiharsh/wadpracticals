@@ -1,0 +1,148 @@
+.other{
+    padding: 1.5rem;
+    background-color: white;
+
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+.other .first img{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.other .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.other .first .imgandname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.other .first .imgandname .name{
+    display: flex
+    ;
+    flex-direction: column;
+}
+.other .first .imgandname  .name h5{
+    font-size: 18px;
+    color: rgba(46, 46, 46, 0.744);
+}
+.other .first .imgandname  .name span{
+    font-size: 12px;color: rgba(46, 46, 46, 0.744);
+
+
+
+}
+
+.other .first i{
+    background-color: rgba(78, 205, 255, 0.84);
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.other p{
+    margin: 1rem 0;color: rgb(101, 101, 101);
+}
+
+.other .second{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+
+}
+.other .like,.comment{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.postimg img 
+{
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+
+.other .commentbox img{
+    width: 30px;
+    height:30px;
+
+}
+
+.other .commentbox h3 {
+    margin: 1rem 0;
+    text-align: center;
+}
+.commentbox{
+    transition: all 0.4s ease-in-out;
+}
+.commentbox .name{
+    flex-direction: row !important;
+    gap: 10px;
+}
+
+.other .commentbox h5{
+    font-size: 12px !important;
+    color: rgba(46, 46, 46, 0.744);
+}
+
+.other .commentbox .commenttext  {
+    padding-left: 3rem;
+}
+
+.other .comments{
+   
+    margin-bottom: 1.5rem;
+    background-color: #f6f6f6;
+    padding: 0.7rem;
+    border-radius: 15px;
+}
+.commentbox .addcomment .first{
+    display: block  !important;
+}
+.commentbox .addcomment
+{
+    margin-bottom: 1.5rem;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.commentbox .addcomment input{
+    background-color: inherit;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    border: none;
+    border-bottom: 1px #c2c2c2 solid;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.commentbox input:focus{
+    outline: none;
+    
+}
+
+.commentbox button{
+    border: none;
+    background-color:rgb(44, 195, 255);
+    color: white;
+    padding: 0.4rem 0.5rem;
+    font-size: 12px;
+    
+    border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+.page{
+    padding:2rem 17rem;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    gap: 2rem;
+}
+
+.newfirst{
+    display: flex;
+
+    flex-direction: column;
+    gap: 2rem;
+}
