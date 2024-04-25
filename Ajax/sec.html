@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+    <script>
+            $(document).ready(function(){
+            $("#btn-3").click(function(){
+            const var1=localStorage.getItem("name");
+            const myobj=JSON.parse(var1);
+            $("#name1").val(myobj.name);
+            $("#name2").val(myobj.email);
+            $("#name3").val(myobj.number);
+            
+            })
+        })
+    </script>
+</head>
+<body>
+    
+
+    <button id="btn-3">Display</button>
+    <p>Name</p>
+    
+    <input type="text" id="name1">
+    <p>Email</p>
+    <input type="email" id="name2">
+    <p>Contact</p>
+    <input type="number" id="name3">
+</body>
+</html>
